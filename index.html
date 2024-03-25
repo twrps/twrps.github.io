@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang='en'>
     <style>
@@ -17,8 +16,8 @@
                 -webkit-box-shadow: 0 0 3px rgba(0, 0, 0, .5);
             }
             50% {
-                background-color: rgba(0, 0, 0, 1);
-                -webkit-box-shadow: 0 0 80px rgba(0, 0, 0, 1);
+                background-color: rgba(0, 0, 0, .2); /* Changed to grey */
+                -webkit-box-shadow: 0 0 80px rgba(0, 0, 0, .5);
             }
             100% {
                 background-color: rgba(0, 0, 0, .5);
@@ -31,8 +30,8 @@
                 -moz-box-shadow: 0 0 3px rgba(0, 0, 0, .5);
             }
             50% {
-                background-color: rgba(0, 0, 0, 1);
-                -moz-box-shadow: 0 0 80px rgba(0, 0, 0, 1);
+                background-color: rgba(0, 0, 0, .2); /* Changed to grey */
+                -moz-box-shadow: 0 0 80px rgba(0, 0, 0, .5);
             }
             100% {
                 background-color: rgba(0, 0, 0, .5);
@@ -45,8 +44,8 @@
                 box-shadow: 0 0 3px rgba(0, 0, 0, .5);
             }
             50% {
-                background-color: rgba(0, 0, 0, 1);
-                box-shadow: 0 0 80px rgba(0, 0, 0, 1);
+                background-color: rgba(0, 0, 0, .2); /* Changed to grey */
+                box-shadow: 0 0 80px rgba(0, 0, 0, .5);
             }
             100% {
                 background-color: rgba(0, 0, 0, .5);
@@ -59,8 +58,8 @@
                 box-shadow: 0 0 3px rgba(0, 0, 0, .5);
             }
             50% {
-                background-color: rgba(0, 0, 0, 1);
-                box-shadow: 0 0 80px rgba(0, 0, 0, 1);
+                background-color: rgba(0, 0, 0, .2); /* Changed to grey */
+                box-shadow: 0 0 80px rgba(0, 0, 0, .5);
             }
             100% {
                 background-color: rgba(0, 0, 0, .5);
@@ -68,23 +67,13 @@
             }
         }
         body {
-            background: linear-gradient(to right, #666666, #000000);
-            background-size: 400% 100%;
-            animation: gradient 10s linear infinite;
+            background: #000000; /* Changed to black */
             font-family: 'Montserrat', sans-serif;
             min-height: 80vh;
             display: flex;
             align-items: center;
             justify-content: center;
             flex-direction: column;
-        }
-        @keyframes gradient {
-            0% {
-                background-position: 0% 50%;
-            }
-            100% {
-                background-position: 100% 50%;
-            }
         }
         h1 {
             font-family: 'Montserrat', sans-serif !important;
