@@ -67,13 +67,23 @@
             }
         }
         body {
-            background: linear-gradient(to bottom, #666666, #000000);
+            background: linear-gradient(to right, #666666, #000000);
+            background-size: 400% 100%;
+            animation: gradient 10s linear infinite;
             font-family: 'Montserrat', sans-serif;
             min-height: 80vh;
             display: flex;
             align-items: center;
             justify-content: center;
             flex-direction: column;
+        }
+        @keyframes gradient {
+            0% {
+                background-position: 0% 50%;
+            }
+            100% {
+                background-position: 100% 50%;
+            }
         }
         h1 {
             font-family: 'Montserrat', sans-serif !important;
@@ -124,7 +134,7 @@
 
         </div>
         <h3 class='text-light'>
-            @instagatd
+            @instagated
         </h3>
     </body>
 </html>
